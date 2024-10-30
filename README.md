@@ -39,23 +39,29 @@ Use real_time_detection.py to see a continuous anomaly detection simulation for 
 ### Files
 
 anomaly_detection.py: Main script for generating synthetic data, detecting anomalies, and visualizing results.
+
 real_time_detection.py: An alternative script demonstrating real-time detection for continuous input.
+
 output/anomaly_plot.png: Example output plot showing detected anomalies in the data stream.
 
 ### Features:
 
 Data Stream Simulation: Generates synthetic data with seasonal and random noise components to simulate realistic streaming data.
+
 Efficient Anomaly Detection: A sliding window keeps the memory footprint low, enabling real-time anomaly detection.
+
 Clear Visualization: Detected anomalies are highlighted, and threshold lines provide additional context, with automatic saving for easy access.
 
 ### Usage Scenarios:
 
 Real-time monitoring of time-series data: for detecting unusual patterns in financial transactions, IoT sensor readings, or network traffic.
+
 Batch processing of historical data: to uncover hidden patterns in past data streams, useful for retrospective analysis in machine learning and statistical analysis.
 
 ### Error Handling and Validation
 
 Data Validation: Ensures data is numeric; otherwise, raises an error.
+
 File Handling: Creates necessary directories and handles any errors in saving the plot, providing feedback if the save operation fails.
 
 ### Conclusion
