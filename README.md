@@ -26,17 +26,6 @@ Approach: Use a deque structure to maintain a fixed-size window, allowing for ef
 Objective: Provide a clear visual representation of detected anomalies.
 Approach: Plot the data stream and mark anomalies with distinct colors. Include mean and threshold lines to contextualize outliers, and save the plot to a specified directory.
 
-### Requirements
-
-* Python 3.x
-* `numpy` for data handling and statistical calculations
-* `matplotlib` for visualization
-* `collections` for efficient data handling in sliding windows
-
-To install required libraries, run:
-```bash
-pip install -r requirements.txt
-
 ### Usage
 
 Static Data Stream Simulation:
@@ -72,3 +61,14 @@ File Handling: Creates necessary directories and handles any errors in saving th
 ### Conclusion
 
 This project provides a reliable, efficient solution for anomaly detection in continuous data streams, simulating real-time analysis. It's well-suited for metrics monitoring in applications like finance and system diagnostics.
+
+### Requirements
+
+* Python 3.x
+* `numpy` for data handling and statistical calculations
+* `matplotlib` for visualization
+* `collections` for efficient data handling in sliding windows
+
+To install required libraries, run:
+```bash
+pip install -r requirements.txt
