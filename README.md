@@ -78,3 +78,4 @@ This project provides a reliable, efficient solution for anomaly detection in co
 To install required libraries, run:
 ```bash
 pip install -r requirements.txt
+```
